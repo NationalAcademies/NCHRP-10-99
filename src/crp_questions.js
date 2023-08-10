@@ -1,0 +1,360 @@
+{"questions": [{
+    "questions": "hahahaha What is the project type? (Select all that apply)",
+    "category": "General",
+    "type": "mc",
+    "choices": ["Paving", "Bridge", "Intersection", "New Const.", "Signalization", "RRR", "Drainage", "Other"],
+    "number": 1,
+    "suggestions": { "1": {"q3": [1]},
+                   "2": {"q3": [2,3]},
+                   "5": {"q3": [4]}
+                 },
+    "allow_multiple": true,
+    "remarks": "RRR: Resurfacing, Restoration and Rehabilitation"
+  },
+  {
+    "questions": "What delivery system will be used to build the project?",
+    "category": "General",
+    "type": "mc",
+    "choices": ["DBB", "D-B", "CM/GC", "P3", "Progressive D-B", "Other", "Unknown"],
+    "number": 2,
+    "suggestions": { "2": {"q3": [5]},
+                   "3": {"q3": [5]},
+                   "4": {"q3": [5]},
+                   "5": {"q3": [5]}
+                 }
+  },
+  {
+    "questions": "What is the estimated cost of this project? ($millions)",
+    "category": "General",
+    "type": "mc",
+    "choices": ["0-15", "15+ - 50", "50+ - 100", "100+ - 500", "500+"],
+    "number": 3,
+    "q1Weight": 0.0373,
+    "q4Weight": 0.0211,
+    "suggestions": {}
+  },
+  {
+    "questions": "Rate the political sensitivity of the project (5-highest; 1-lowest)",
+    "category": "General",
+    "type": "rank",
+    "range": 5,
+    "number": 4,
+    "q1Weight": 0.0632,
+    "q4Weight": 0.0464,
+    "suggestions": {
+                   "3": {"q3": [8,36]},
+                   "4": {"q2": [1,2,3,4,5,6], "q3": [6,7,36]}, 
+                   "5": {"q2": [1,2,3,4,5,6], "q3": [6,7,36]}
+                 }
+  },
+  {
+    "questions": "Rate the environmental sensitivity of the project (5-highest; 1-lowest)",
+    "category": "General",
+    "type": "rank",
+    "range": 5,
+    "number": 5,
+    "q1Weight": 0.0655,
+    "q4Weight": 0.0464,
+    "suggestions": {
+                   "3": {"q2": [5]},
+                   "4": {"q2": [1,2,3,4,5], "q3": [9]},
+                   "5": {"q2": [1,2,3,4,5], "q3": [9]}
+                 }
+  },
+  {
+    "questions": "Rate the historic sensitivity of the project (5-highest; 1-lowest)",
+    "category": "General",
+    "type": "rank",
+    "range": 5,
+    "number": 6,
+    "q1Weight": 0.0644,
+    "q4Weight": 0.0464,
+    "suggestions": {
+                   "3": {"q3": [10]},
+                   "4": {"q2": [1,2,3,4,5,7,8], "q3": [10]},
+                   "5": {"q2": [1,2,3,4,5,7,8], "q3": [10]}
+                 }
+  },
+  {
+    "questions": "Rate the level of potential underground and overhead utility conflicts on the project (5-high; 1-low)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 7,
+    "q1Weight": 0.0711,
+    "q4Weight": 0.0464,
+    "suggestions": {
+                   "3": {"q2": [2], "q3": [11,14]},
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [11,12,13]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [11,12,13]}
+                 }
+  },
+  {
+    "questions": "Rate the level of potential ROW conflicts on the project (5-high; 1-low)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 8,
+    "q1Weight": 0.0655,
+    "q4Weight": 0.0464,
+    "suggestions": {
+                   "3": {"q2": [3], "q3": [16]},
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [13,15]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [13,15]}
+                 }
+  },
+  {
+    "questions": "Rate the potential level of difficulty for MOT on the project (5-most difficult; 1-least difficult)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 9,
+    "q1Weight": 0.0711,
+    "q4Weight": 0.0422,
+    "suggestions": {
+                   "4": {"q2": [1,2,3,4,5,6,7,9], "q3": [13]},
+                   "5": {"q2": [1,2,3,4,5,6,7,9], "q3": [13]}
+                 }
+  },
+  {
+    "questions": "Rate the ease of access to the project and the accessibility for material deliveries and haul routes within, or adjacent to, project limits (5-most difficult access/least accessibility; 1-easiest access/greatest accessibility)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 10,
+    "q1Weight": 0.0598,
+    "q4Weight": 0.0412,
+    "suggestions": {
+                   "3": {"q2": [3], "q3": [18,19]},
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [17,18]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [17,18]}
+                 }
+  },
+  {
+    "questions": "Rate the ease of equipment movement (room, obstacles, etc.) on this project, and the space available within, or adjacent to, project limits to stockpile material and park equipment (5-most constricted/least space; 1-greatest freedom of movement)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 11,
+    "q1Weight": 0.0576,
+    "q4Weight": 0.0309,
+    "suggestions": {
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [20]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [20]}
+                 }
+  },
+  {
+    "questions": "Rate the likelihood that design refinements may trigger an environmental reevaluation",
+    "category": "Physical characteristics",
+    "type": "mc",
+    "choices": ["No chance", "Unlikely", "Neither Likely nor Unlikely", "Likely", "Extremely Likely"],
+    "number": 12,
+    "q1Weight": 0.0598,
+    "q4Weight": 0.0453,
+    "suggestions": { 
+                   "5": {"q2": [1,2,3,4,5,7]}
+                 }
+  },
+  {
+    "questions": "Is the work to be performed on this project typical for this area of the state; and will the work be accomplished using traditional technologies used to build this type of project in this area? (5-new kind of project, to be built using new technology; 1-typical project that can be built using traditional equipment and methods)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 13,
+    "q1Weight": 0.0598,
+    "q4Weight": 0.0338,
+    "suggestions": {
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [13,21]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [13,21]}
+                 }
+  },
+  {
+    "questions": "Rate the known geotechnical conditions and the probability for unforeseen troublesome site conditions on the project site (5-worst/highest; 1-best/lowest)",
+    "category": "Physical characteristics",
+    "type": "rank",
+    "range": 5,
+    "number": 14,
+    "q1Weight": 0.0644,
+    "q4Weight": 0.0422,
+    "suggestions": {
+                   "3": {"q3": [24]},
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [22,23]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [22,23]}
+                 }
+  },
+  {
+    "questions": "Is there a railroad within, or adjacent to, the project limits?",
+    "category": "Physical characteristics",
+    "type": "mc",
+    "choices": ["No railroad", "Railroad adjacent to project", "Railroad within project"],
+    "number": 15,
+    "q1Weight": 0.0768,
+    "q4Weight": 0.0506,
+    "suggestions": {
+                   "2": {"q1": 4, "q2": [1,2,3,4,5], "q3": [25], "q4": 4},
+                   "3": {"q1": 5, "q2": [1,2,3,4,5], "q3": [25], "q4": 5}
+                 }
+  },
+  {
+    "questions": "Rate the need to include people in the Constructability Review Process not for their potential input, but solely to increase their knowledge/experience in constructability (5-highest; 1-lowest)",
+    "category": "Intangibles",
+    "type": "rank",
+    "range": 5,
+    "number": 16,
+    "suggestions": {
+                   "3": {"q3": [26]},
+                   "4": {"q3": [26]},
+                   "5": {"q3": [26]}
+                 }
+  },
+  {
+    "questions": "Rate the probability that staged construction will be necessary (5-highest probability; 1-lowest probability)",
+    "category": "Intangibles",
+    "type": "rank",
+    "range": 5,
+    "number": 17,
+    "q1Weight": 0.0598,
+    "q4Weight": 0.0506,
+    "suggestions": {
+                   "3": {"q3": [39,40]},
+                   "4": {"q2": [1,2,3,4,5,7], "q3": [39,40]},
+                   "5": {"q2": [1,2,3,4,5,7], "q3": [39,40]}
+                 }
+  },
+  {
+    "questions": "How familiar is the design professional with the project site/how accessible is the design professional?",
+    "category": "Intangibles",
+    "type": "mc",
+    "choices": ["Most familiar/Most accessible", "Very familiar/Very accessible", "Fairly familiar/Fairly accessible", "Not very familiar/Not very accessible", "Not very familiar/Not very accessible"],
+    "number": 18,
+    "suggestions": {
+                   "4": {"q2": [1,5]},
+                   "5": {"q2": [1,5]}
+                 }
+  },
+  {
+    "questions": "Does the number of permitting agencies, or any of the individual permitting agencies involved, cause particular angst regarding the ease of the environmental permitting process? (5-Either the high number of agencies, or one or more of the agencies involved are of great concern; 1-Neither the number of agencies, nor any of the agencies involved are cause for concern)",
+    "category": "Intangibles",
+    "type": "rank",
+    "range": 5,
+    "number": 19,
+    "q4Weight": 0.0464,
+    "suggestions": {
+                   "3": {"q3": [29]},
+                   "4": {"q3": [27,28]},
+                   "5": {"q3": [27,28]}
+                 }
+  },
+  {
+    "questions": "Rate the probability for long-term maintenance problems on the project (5-highest; 1-lowest)",
+    "category": "Intangibles",
+    "type": "rank",
+    "range": 5,
+    "number": 20,
+    "suggestions": {
+                   "3": {"q3": [18,19]},
+                   "4": {"q2": [1,2,3,4,5,10,11], "q3": [18,19]},
+                   "5": {"q2": [1,2,3,4,5,10,11], "q3": [17,18]}
+                 }
+  },
+  {
+    "questions": "Rate the need for emergency vehicles to pass through the project limits during construction; and the difficulty for emergency vehicles to pass through the project limits during construction (5-multiple passes/day & extreme difficulty for the vehicles to pass through;  3-average number of passes/day & average difficulty for the vehicles to pass through; 1-very few passes (1-2 times/month during project duration & no problem with vehicles passing through)",
+    "category": "Local circumstances",
+    "type": "rank",
+    "range": 5,
+    "number": 21,
+    "suggestions": {
+                   "3": {"q3": [30,31,32,33]},
+                   "4": {"q3": [30,31,32,33]},
+                   "5": {"q3": [30,31,32,33]}
+                 }
+  },
+  {
+    "questions": "Rate the need for school busses to pass through the project limits during construction; and the difficulty for school busses to pass through the project limits during construction (5-multiple passes/day & extreme difficulty for the busses to pass through;  3-average number of passes/day & average difficulty for the busses to pass through; 1-very few passes (1-2 times/month during project duration & no problem with busses passing through)",
+    "category": "Local circumstances",
+    "type": "rank",
+    "range": 5,
+    "number": 22,
+    "suggestions": {
+                   "3": {"q3": [34,35]},
+                   "4": {"q3": [34,35]},
+                   "5": {"q3": [34,35]}
+                 }
+  },
+  {
+    "questions": "Rate the availability of skilled labor, unskilled labor, and trucking capacity in the economy local to the project site (5-extreme shortage of workers / truckers; 1- plenty of workers / truckers)",
+    "category": "Local circumstances",
+    "type": "rank",
+    "range": 5,
+    "number": 23,
+    "q1Weight": 0.0644,
+    "q4Weight": 0.0338,
+    "suggestions": {}
+  },
+  {
+    "questions": "Rate the likelihood of organized opposition to the project (5-highest probability; 1-low probability)",
+    "category": "Local circumstances",
+    "type": "rank",
+    "range": 5,
+    "number": 24,
+    "suggestions": {
+                   "2": {"q3": [36]},
+                   "3": {"q3": [36]},
+                   "4": {"q3": [36]},
+                   "5": {"q3": [36]}
+                 }
+  },
+  {
+    "questions": "Can the NEPA, and the Environmental Permitting Processes on this project be accomplished concurrently?",
+    "category": "Agency decisions/capabilities",
+    "type": "mc",
+    "choices": ["yes", "no"],
+    "number": 25,
+    "q4Weight": 0.0506,
+    "suggestions": {
+                   "1": {"q3": [37]}
+                 }
+  },
+  {
+    "questions": "Can the Constructability Review Process be conducted concurrently with the NEPA, and the Environmental Permitting Processes on this project?",
+    "category": "Agency decisions/capabilities",
+    "type": "mc",
+    "choices": ["yes", "no"],
+    "number": 26,
+    "q4Weight": 0.0506,
+    "suggestions": {
+                   "1": {"q3": [37]}
+                 }
+  },
+  {
+    "questions": "Does your agency have the capacity to perform a “404 Review”?",
+    "category": "Agency decisions/capabilities",
+    "type": "mc",
+    "choices": ["yes", "no"],
+    "number": 27,
+    "q4Weight": 0.0338,
+    "suggestions": {
+                   "2": {"q2": [1], "q3": [38]}
+                 }
+  },
+  {
+    "questions": "Does your agency have the freedom to optimize the Limits of Disturbance on this project?",
+    "category": "Agency decisions/capabilities",
+    "type": "mc",
+    "choices": ["yes", "no"],
+    "number": 28,
+    "q4Weight": 0.0338,
+    "suggestions": {
+                   "1": {"q3": [37]},
+                   "2": {"q2": [1,2,3,4,5,7]}
+                 }
+  },
+  {
+    "questions": "Does your state have the ability to engage the construction industry in performing constructability reviews for the project under consideration?",
+    "category": "Agency decisions/capabilities",
+    "type": "mc",
+    "choices": ["yes", "no"],
+    "number": 29,
+    "q4Weight": 0.0338,
+    "suggestions": {}
+  }]}
